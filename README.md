@@ -145,6 +145,10 @@ Capturing audio
 
 First make sure you have installed pulseaudio dev files and that cava has been built with pulseaudio support (it should be automatically if the dev files are found).
 
+Verify that Pulseaudio is installed 
+
+	pulseaudio --version
+
 If you're lucky all you have to do is to uncomment this line in the config file under input:
 
     method = pulse
